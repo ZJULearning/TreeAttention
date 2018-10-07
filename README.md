@@ -18,7 +18,7 @@ publisher={IEEE}
 
 }
 ```
-![model](https://github.com/xuehy/TreeAttention/blob/master/overview.pdf)
+![model](https://github.com/xuehy/TreeAttention/blob/master/overview.png)
 
 For the dataset, please refer to [dataset](https://github.com/xuehy/videoqa).
 
