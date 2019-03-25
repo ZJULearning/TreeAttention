@@ -18,6 +18,8 @@ Table of Contents
 ## Introduction
 The code for [**A Better Way to Attend: Attention with Trees for Video Question Answering**](https://ieeexplore.ieee.org/document/8419716)
 
+The HTreeMN model is a tree-structured attention neural network based on the syntactic parse tree of the natural language sentence. Each node of the tree-structured network does its computation based on the property of the corresponding word or intermediate representation.
+
 ![model](https://github.com/xuehy/TreeAttention/blob/master/overview.png)
 
 For a faster partially batched version of the model, see [BatchedTreeLSTM](https://github.com/xuehy/BatchedTreeLSTM)
