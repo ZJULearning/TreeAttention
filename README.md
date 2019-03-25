@@ -39,7 +39,10 @@ For a faster partially batched version of the model, see [BatchedTreeLSTM](https
 
 
 ### Results
-HTreeMN achieves the best results.
+HTreeMN achieves the best results. Its performance does not drop as the length of question increases.
+
+![table](https://github.com/ZJULearning/TreeAttention/edit/master/r.png)
+
 
 ## Building Instruction
 
