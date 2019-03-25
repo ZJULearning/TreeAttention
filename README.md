@@ -1,7 +1,56 @@
 # TreeAttention
 
+Table of Contents
+=================
+<!--ts-->
+* [Introduction](#introduction)
+* [Performance](#performance)
+	 * [Datasets](#datasets)
+	 * [Compared Algorithms](#compared-algorithms)
+	 * [Results](#results)
+* [Building Instruction](#building-instruction)
+	 * [Prerequisites](#prerequisites)
+* [Usage](#usage)
+* [Reference](#reference)
+* [License](#license)
+<!--te-->
+
+## Introduction
 The code for [**A Better Way to Attend: Attention with Trees for Video Question Answering**](https://ieeexplore.ieee.org/document/8419716)
 
+![model](https://github.com/xuehy/TreeAttention/blob/master/overview.png)
+
+For a faster partially batched version of the model, see [BatchedTreeLSTM](https://github.com/xuehy/BatchedTreeLSTM)
+
+## Performance
+
+### Datasets
+
++ [VideoQA Dataset](https://github.com/xuehy/videoqa)
+
+### Compared Algorithms
+
+
++ [E-SA] (https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14906/14319)
++ [E-SS] (https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14906/14319) 
++ Simple: a designed based-line, which does not utilize attention mechanisms.
+
+
+### Results
+HTreeMN achieves the best results.
+
+## Building Instruction
+
+### Prerequisites
+
++ Python 3.0+
++ Pytorch 0.4.0+
+
+
+## Usage
++ Packaging the datasets into python pickle files and run ``` python main.py ```
+
+## Reference
 If you use our work, please cite our paper,
 ```
 @article{xue2018tree,
@@ -18,9 +67,6 @@ publisher={IEEE}
 
 }
 ```
-![model](https://github.com/xuehy/TreeAttention/blob/master/overview.png)
 
-For the dataset, please refer to [dataset](https://github.com/xuehy/videoqa).
 
-For a faster partially batched version of the model, see [BatchedTreeLSTM](https://github.com/xuehy/BatchedTreeLSTM)
 
